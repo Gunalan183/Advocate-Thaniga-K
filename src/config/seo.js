@@ -35,7 +35,7 @@ export const seoConfig = {
 // Default SEO settings
 export const defaultSEO = {
   siteName: "Advocate Thaniga K",
-  siteUrl: process.env.REACT_APP_SITE_URL || "https://advocate-thaniga-k.vercel.app/",
+  siteUrl: process.env.REACT_APP_SITE_URL || "https://advocate-thaniga-k.vercel.app",
   author: "Advocate Thaniga K",
   location: "Chengalpattu, Tamil Nadu, India",
   phone: "+91-9629200302",
