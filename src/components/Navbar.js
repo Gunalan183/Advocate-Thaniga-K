@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FaBars, FaTimes, FaBalanceScale } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,29 +29,26 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
-      }`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 z-50 relative">
-            <FaBalanceScale className="text-gold text-xl sm:text-2xl" />
-            <span className="text-lg sm:text-xl font-serif font-bold text-gold">LawSpot</span>
+          <Link to="/" className="z-50 relative">
+            <span className="text-sm sm:text-base md:text-lg font-serif font-bold text-gold whitespace-nowrap">Advocate Thaniga K</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
+          <div className="hidden md:flex items-center space-x-3 lg:space-x-4 xl:space-x-6">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`relative font-medium transition-colors duration-300 text-sm xl:text-base ${
-                  location.pathname === item.path
-                    ? 'text-gold'
-                    : 'text-white hover:text-gold'
-                }`}
+                className={`relative font-medium transition-colors duration-300 text-xs md:text-sm lg:text-base whitespace-nowrap ${location.pathname === item.path
+                  ? 'text-gold'
+                  : 'text-white hover:text-gold'
+                  }`}
               >
                 {item.name}
                 {location.pathname === item.path && (
@@ -65,10 +62,11 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden z-50 relative">
+          <div className="md:hidden z-50 relative">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-white hover:text-gold transition-colors duration-300 p-2"
+              aria-label="Toggle menu"
             >
               {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
             </button>
@@ -81,19 +79,18 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="lg:hidden bg-black/95 backdrop-blur-sm border-t border-gold/20"
+            className="md:hidden bg-black/95 backdrop-blur-sm border-t border-gold/20"
           >
-            <div className="px-4 pt-4 pb-6 space-y-2">
+            <div className="px-4 pt-3 pb-4 space-y-2">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-3 text-base font-medium transition-colors duration-300 rounded-lg ${
-                    location.pathname === item.path
-                      ? 'text-gold bg-gold/10 border border-gold/20'
-                      : 'text-white hover:text-gold hover:bg-gold/5'
-                  }`}
+                  className={`block px-4 py-3 text-base font-medium transition-colors duration-300 rounded-lg ${location.pathname === item.path
+                    ? 'text-gold bg-gold/10 border border-gold/20'
+                    : 'text-white hover:text-gold hover:bg-gold/5'
+                    }`}
                 >
                   {item.name}
                 </Link>
