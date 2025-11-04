@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaBalanceScale, FaGavel, FaShieldAlt, FaUsers, FaWhatsapp, FaPhone } from 'react-icons/fa';
+import SEO from '../components/SEO';
 
 const Home = () => {
   const features = [
@@ -29,6 +30,12 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="Advocate Thaniga K - Professional Legal Services | Criminal Law, Civil Litigation, Family Law"
+        description="Expert legal representation by Advocate Thaniga K. Specializing in Criminal Law, Civil Litigation, Family Law. LawSpot verified member. Book consultation today."
+        keywords="advocate thaniga k, lawyer chengalpattu, criminal law attorney, civil litigation lawyer, family law advocate, legal services tamil nadu, court representation, legal consultation"
+        url="/"
+      />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-hexagon-pattern pt-16 lg:pt-0">
         <div className="absolute inset-0 bg-black/70"></div>
