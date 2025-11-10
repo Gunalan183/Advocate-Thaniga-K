@@ -31,9 +31,9 @@ const Home = () => {
   return (
     <div className="min-h-screen overflow-x-hidden w-full">
       <SEO 
-        title="Advocate Thaniga K - Professional Legal Services | Criminal Law, Civil Litigation, Family Law"
-        description="Expert legal representation by Advocate Thaniga K. Specializing in Criminal Law, Civil Litigation, Family Law. LawSpot verified member. Book consultation today."
-        keywords="advocate thaniga k, lawyer chengalpattu, criminal law attorney, civil litigation lawyer, family law advocate, legal services tamil nadu, court representation, legal consultation"
+        title="Advocate Thaniga UK - Professional Legal Services | Criminal Law, Civil Litigation, Family Law"
+        description="Expert legal representation by Advocate Thaniga UK. Specializing in Criminal Law, Civil Litigation, Family Law. LawSpot verified member. Book consultation today."
+        keywords="advocate thaniga uk, lawyer chengalpattu, criminal law attorney, civil litigation lawyer, family law advocate, legal services tamil nadu, court representation, legal consultation"
         url="/"
       />
       {/* Hero Section */}
@@ -50,7 +50,7 @@ const Home = () => {
             >
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold mb-4 md:mb-6 leading-tight">
                 <span className="text-white">Advocate </span>
-                <span className="text-gradient block sm:inline">Thaniga K</span>
+                <span className="text-gradient block sm:inline">Thaniga UK</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-3 md:mb-4">
                 BA.LLB, | LawSpot Verified Member
@@ -93,8 +93,8 @@ const Home = () => {
                 <div className="w-64 h-72 sm:w-72 sm:h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-gold/50">
                   <img
                     src="/images/THANIGAphoto.jpeg"
-                    alt="Advocate Thaniga K - Professional Legal Services Lawyer in Chengalpattu, Tamil Nadu"
-                    title="Advocate Thaniga K - BA.LLB, LawSpot Verified Legal Expert"
+                    alt="Advocate Thaniga UK - Professional Legal Services Lawyer in Chengalpattu, Tamil Nadu"
+                    title="Advocate Thaniga UK - BA.LLB, LawSpot Verified Legal Expert"
                     loading="eager"
                     className="w-full h-full object-cover object-center"
                   />
@@ -122,7 +122,7 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white mb-4 px-4">
-              Why Choose <span className="text-gold">Advocate Thaniga K</span>
+              Why Choose <span className="text-gold">Advocate Thaniga UK</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4">
               Experience the difference of working with a dedicated legal professional 

@@ -57,7 +57,7 @@ const About = () => {
             className="text-center mb-16"
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 px-4">
-              About <span className="text-gold">Advocate Thaniga K</span>
+              About <span className="text-gold">Advocate Thaniga UK</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto px-4 leading-relaxed">
               A dedicated legal professional committed to providing exceptional legal services 
@@ -82,18 +82,18 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed px-4 lg:px-0">
                 <p>
-                  Advocate Thaniga K is a distinguished legal professional with a Bachelor of Arts 
+                  Advocate Thaniga UK is a distinguished legal professional with a Bachelor of Arts 
                   and Bachelor of Laws (BA.LLB) degree, bringing comprehensive legal knowledge and 
                   practical experience to serve clients across various legal domains.
                 </p>
                 <p>
-                  As a verified member of LawSpot, Advocate Thaniga K has established a reputation 
+                  As a verified member of LawSpot, Advocate Thaniga UK has established a reputation 
                   for providing reliable, ethical, and effective legal representation. With expertise 
                   spanning Criminal Law, Civil Litigation, Family Law, Corporate Law, and Property 
                   Disputes, clients receive comprehensive legal solutions tailored to their specific needs.
                 </p>
                 <p>
-                  Based in Chengalpattu District, Advocate Thaniga K serves clients throughout the 
+                  Based in Chengalpattu District, Advocate Thaniga UK serves clients throughout the 
                   region with a commitment to justice, client success, and professional excellence. 
                   The practice is built on the foundation of trust, transparency, and delivering 
                   favorable outcomes for every client.
@@ -112,8 +112,8 @@ const About = () => {
                 <div className="w-64 h-80 sm:w-72 sm:h-88 md:w-80 md:h-96 rounded-lg overflow-hidden shadow-2xl border-4 border-gold/30">
                   <img
                     src="/images/THANIGAphoto.jpeg"
-                    alt="Advocate Thaniga K - About Professional Background BA.LLB Lawyer Chengalpattu"
-                    title="Advocate Thaniga K - Professional Legal Background and Experience"
+                    alt="Advocate Thaniga UK - About Professional Background BA.LLB Lawyer Chengalpattu"
+                    title="Advocate Thaniga UK - Professional Legal Background and Experience"
                     loading="lazy"
                     className="w-full h-full object-cover object-center"
                   />
@@ -140,7 +140,7 @@ const About = () => {
               clients through their legal challenges with integrity and expertise."
             </blockquote>
             <div className="border-l-4 border-gold pl-4">
-              <p className="text-gold font-semibold">Advocate Thaniga K</p>
+              <p className="text-gold font-semibold">Advocate Thaniga UK</p>
               <p className="text-gray-400 text-sm sm:text-base">BA.LLB | LawSpot Verified Member</p>
             </div>
           </motion.div>

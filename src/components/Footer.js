@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-serif font-bold text-gold">LawSpot</span>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Advocate Thaniga K - Committed to Justice and Client Success. 
+              Advocate Thaniga UK - Committed to Justice and Client Success. 
               Providing expert legal representation with dedication and integrity.
             </p>
             <div className="flex space-x-4">
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="text-center mb-4">
             <p className="text-gray-400">
-              © {new Date().getFullYear()} Advocate Thaniga K. All rights reserved. | 
+              © {new Date().getFullYear()} Advocate Thaniga UK. All rights reserved. | 
               <span className="text-gold"> LawSpot Verified Member</span>
             </p>
           </div>

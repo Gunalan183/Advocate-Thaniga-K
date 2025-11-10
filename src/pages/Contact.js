@@ -37,7 +37,7 @@ const Contact = () => {
 
     // Create email content
     const emailSubject = `Legal Consultation Request - ${formData.subject}`;
-    const emailBody = `Dear Advocate Thaniga K,
+    const emailBody = `Dear Advocate Thaniga UK,
 
 You have received a new message through your website contact form:
 
@@ -236,7 +236,7 @@ LawSpot Website Contact Form`;
                     <div className="mt-2">
                       <strong>Message:</strong>
                       <div className="mt-1 whitespace-pre-line">
-                        {`Dear Advocate Thaniga K,
+                        {`Dear Advocate Thaniga UK,
 
 Name: ${formData.name}
 Email: ${formData.email}
@@ -393,14 +393,14 @@ Please respond at your earliest convenience.`}
                   <div className="w-40 h-48 sm:w-48 sm:h-56 mx-auto rounded-lg overflow-hidden shadow-lg border-2 border-gold/30 mb-4">
                     <img
                       src="/images/THANIGAphoto.jpeg"
-                      alt="Advocate Thaniga K - Contact Legal Consultation Chengalpattu"
-                      title="Advocate Thaniga K - Professional Legal Consultation"
+                      alt="Advocate Thaniga UK - Contact Legal Consultation Chengalpattu"
+                      title="Advocate Thaniga UK - Professional Legal Consultation"
                       loading="lazy"
                       className="w-full h-full object-cover object-center"
                     />
                   </div>
                   <h4 className="text-lg sm:text-xl font-serif font-bold text-white mb-2">
-                    Advocate Thaniga K
+                    Advocate Thaniga UK
                   </h4>
                   <p className="text-gold mb-2 text-sm sm:text-base">BA.LLB,</p>
                   <p className="text-gray-300 text-xs sm:text-sm">LawSpot Verified Member</p>

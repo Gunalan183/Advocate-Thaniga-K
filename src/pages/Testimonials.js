@@ -10,42 +10,42 @@ const Testimonials = () => {
       name: "Rajesh Kumar",
       case: "Property Dispute Resolution",
       rating: 5,
-      text: "Advocate Thaniga K provided exceptional legal representation in my property dispute case. His thorough understanding of property law and strategic approach helped me achieve a favorable outcome. Highly professional and dedicated to client success.",
+      text: "Advocate Thaniga UK provided exceptional legal representation in my property dispute case. His thorough understanding of property law and strategic approach helped me achieve a favorable outcome. Highly professional and dedicated to client success.",
       location: "Chennai"
     },
     {
       name: "Priya Sharma",
       case: "Family Law Matter",
       rating: 5,
-      text: "During a difficult divorce proceeding, Advocate Thaniga K handled my case with utmost sensitivity and professionalism. His expertise in family law and compassionate approach made the process much easier. I'm grateful for his excellent service.",
+      text: "During a difficult divorce proceeding, Advocate Thaniga UK handled my case with utmost sensitivity and professionalism. His expertise in family law and compassionate approach made the process much easier. I'm grateful for his excellent service.",
       location: "Chengalpattu"
     },
     {
       name: "Suresh Patel",
       case: "Criminal Defense",
       rating: 5,
-      text: "I was facing serious criminal charges and was extremely worried. Advocate Thaniga K took my case and provided excellent defense representation. His knowledge of criminal law and dedication to my case resulted in a successful outcome.",
+      text: "I was facing serious criminal charges and was extremely worried. Advocate Thaniga UK took my case and provided excellent defense representation. His knowledge of criminal law and dedication to my case resulted in a successful outcome.",
       location: "Kanchipuram"
     },
     {
       name: "Meera Reddy",
       case: "Corporate Legal Services",
       rating: 5,
-      text: "As a business owner, I needed reliable legal counsel for various corporate matters. Advocate Thaniga K has been instrumental in helping my business navigate legal complexities. His expertise and prompt service are commendable.",
+      text: "As a business owner, I needed reliable legal counsel for various corporate matters. Advocate Thaniga UK has been instrumental in helping my business navigate legal complexities. His expertise and prompt service are commendable.",
       location: "Tambaram"
     },
     {
       name: "Arun Krishnan",
       case: "Civil Litigation",
       rating: 5,
-      text: "Advocate Thaniga K represented me in a complex civil litigation matter. His strategic thinking, attention to detail, and persistent efforts led to a successful resolution. I would definitely recommend his services to others.",
+      text: "Advocate Thaniga UK represented me in a complex civil litigation matter. His strategic thinking, attention to detail, and persistent efforts led to a successful resolution. I would definitely recommend his services to others.",
       location: "Mahabalipuram"
     },
     {
       name: "Lakshmi Iyer",
       case: "Legal Documentation",
       rating: 5,
-      text: "I needed help with various legal documents for my property transactions. Advocate Thaniga K provided comprehensive legal documentation services with great attention to detail. His professionalism and expertise are outstanding.",
+      text: "I needed help with various legal documents for my property transactions. Advocate Thaniga UK provided comprehensive legal documentation services with great attention to detail. His professionalism and expertise are outstanding.",
       location: "Cheyyur"
     }
   ];
@@ -74,7 +74,7 @@ const Testimonials = () => {
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Hear from our satisfied clients about their experience working with 
-              Advocate Thaniga K and the successful outcomes achieved.
+              Advocate Thaniga UK and the successful outcomes achieved.
             </p>
           </motion.div>
         </div>

@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({
-  title = "Advocate Thaniga K - Professional Legal Services",
+  title = "Advocate Thaniga UK - Professional Legal Services",
   description = "Expert legal representation in Criminal Law, Civil Litigation, and Family Law. Committed to Justice and Client Success. Contact for consultation.",
-  keywords = "advocate, lawyer, legal services, criminal law, civil litigation, family law, Thaniga K, legal consultation, court representation, legal advice",
+  keywords = "advocate, lawyer, legal services, criminal law, civil litigation, family law, Thaniga UK, legal consultation, court representation, legal advice",
   image = "/images/THANIGAphoto.jpeg",
   url = window.location.href,
   type = "website",
-  author = "Advocate Thaniga K",
+  author = "Advocate Thaniga UK",
   location = "Chengalpattu, Tamil Nadu, India"
 }) => {
   const siteUrl = process.env.REACT_APP_SITE_URL || window.location.origin;
@@ -17,7 +17,7 @@ const SEO = ({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    "name": "Advocate Thaniga K",
+    "name": "Advocate Thaniga UK",
     "description": description,
     "url": siteUrl,
     "logo": `${siteUrl}/images/advocatelogo.jpg`,
@@ -69,7 +69,7 @@ const SEO = ({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={fullImageUrl} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:site_name" content="Advocate Thaniga K" />
+      <meta property="og:site_name" content="Advocate Thaniga UK" />
       <meta property="og:locale" content="en_US" />
       
       {/* Twitter */}
@@ -82,7 +82,7 @@ const SEO = ({
       {/* Additional SEO Meta Tags */}
       <meta name="theme-color" content="#D4AF37" />
       <meta name="msapplication-TileColor" content="#D4AF37" />
-      <meta name="application-name" content="Advocate Thaniga K" />
+      <meta name="application-name" content="Advocate Thaniga UK" />
       
       {/* Structured Data */}
       <script type="application/ld+json">

@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-12 sm:h-14">
           {/* Logo */}
           <Link to="/" className="z-50 relative">
-            <span className="text-sm sm:text-base md:text-lg font-serif font-bold text-gold whitespace-nowrap">Advocate Thaniga K</span>
+            <span className="text-sm sm:text-base md:text-lg font-serif font-bold text-gold whitespace-nowrap">Advocate Thaniga UK</span>
           </Link>
 
           {/* Desktop Navigation */}
