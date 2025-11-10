@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   FaPhone, 
@@ -6,7 +6,6 @@ import {
   FaMapMarkerAlt, 
   FaWhatsapp, 
   FaClock,
-  FaUser,
   FaPaperPlane,
   FaCheckCircle,
   FaExclamationTriangle
