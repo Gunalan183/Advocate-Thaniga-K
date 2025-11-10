@@ -29,7 +29,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden w-full">
       <SEO 
         title="Advocate Thaniga K - Professional Legal Services | Criminal Law, Civil Litigation, Family Law"
         description="Expert legal representation by Advocate Thaniga K. Specializing in Criminal Law, Civil Litigation, Family Law. LawSpot verified member. Book consultation today."
@@ -37,10 +37,10 @@ const Home = () => {
         url="/"
       />
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-hexagon-pattern pt-16 lg:pt-0">
+      <section className="relative min-h-screen flex items-center justify-center bg-hexagon-pattern pt-20 sm:pt-24 lg:pt-0">
         <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-4rem)] lg:min-h-screen">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-6rem)] sm:min-h-[calc(100vh-7rem)] lg:min-h-screen">
             {/* Text Content */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -53,7 +53,7 @@ const Home = () => {
                 <span className="text-gradient block sm:inline">Thaniga K</span>
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-3 md:mb-4">
-                B.A., LL.B. | LawSpot Verified Member
+                BA.LLB, | LawSpot Verified Member
               </p>
               <p className="text-lg sm:text-xl md:text-2xl font-serif text-gold mb-6 md:mb-8 px-4 lg:px-0">
                 "Committed to Justice and Client Success"
@@ -93,7 +93,9 @@ const Home = () => {
                 <div className="w-64 h-72 sm:w-72 sm:h-80 md:w-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-gold/50">
                   <img
                     src="/images/THANIGAphoto.jpeg"
-                    alt="Advocate Thaniga K - Professional Legal Services"
+                    alt="Advocate Thaniga K - Professional Legal Services Lawyer in Chengalpattu, Tamil Nadu"
+                    title="Advocate Thaniga K - BA.LLB, LawSpot Verified Legal Expert"
+                    loading="eager"
                     className="w-full h-full object-cover object-center"
                   />
                 </div>

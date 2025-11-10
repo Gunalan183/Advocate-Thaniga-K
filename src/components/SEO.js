@@ -23,7 +23,7 @@ const SEO = ({
     "logo": `${siteUrl}/images/advocatelogo.jpg`,
     "image": fullImageUrl,
     "telephone": "+91-XXXXXXXXXX", // Replace with actual phone
-    "email": "thaniga@example.com", // Replace with actual email
+    "email": "thniga07@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Chengalpattu",

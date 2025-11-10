@@ -61,7 +61,7 @@ LawSpot Website Contact Form`;
     const encodedBody = encodeURIComponent(emailBody);
     
     // Create mailto link
-    const mailtoLink = `mailto:thinga07@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
+    const mailtoLink = `mailto:thniga07@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
 
     try {
       // Simulate processing time
@@ -98,8 +98,8 @@ LawSpot Website Contact Form`;
     {
       icon: <FaEnvelope className="text-2xl text-gold" />,
       title: "Email Address",
-      details: ["thinga07@gmail.com"],
-      action: "mailto:thinga07@gmail.com"
+      details: ["thniga07@gmail.com"],
+      action: "mailto:thniga07@gmail.com"
     },
     {
       icon: <FaMapMarkerAlt className="text-2xl text-gold" />,
@@ -109,7 +109,7 @@ LawSpot Website Contact Form`;
         "Nainarkuppam Post, Cheyyur Taluk,",
         "Chengalpattu District - 603302"
       ],
-      action: "https://maps.google.com"
+      action: "https://www.google.com/maps?q=12.318868,80.0278663"
     },
     {
       icon: <FaClock className="text-2xl text-gold" />,
@@ -124,9 +124,9 @@ LawSpot Website Contact Form`;
   ];
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-20 sm:pt-24 md:pt-20 overflow-x-hidden w-full">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-black via-gray-900 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -134,10 +134,10 @@ LawSpot Website Contact Form`;
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-4 sm:mb-6 px-4">
               Contact <span className="text-gold">Us</span>
             </h1>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto px-4 leading-relaxed">
               Get in touch for professional legal consultation and representation. 
               We're here to help you navigate your legal challenges with expertise and dedication.
             </p>
@@ -146,9 +146,9 @@ LawSpot Website Contact Form`;
       </section>
 
       {/* Contact Information Cards */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-12 sm:py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {contactInfo.map((info, index) => (
               <motion.div
                 key={index}
@@ -186,9 +186,9 @@ LawSpot Website Contact Form`;
       </section>
 
       {/* Contact Form and Map Section */}
-      <section className="py-16 bg-black">
+      <section className="py-12 sm:py-16 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             {/* Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
@@ -213,7 +213,7 @@ LawSpot Website Contact Form`;
                   <FaCheckCircle className="text-xl flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Email Client Opened Successfully!</p>
-                    <p className="text-sm">Your email application has opened with your message pre-filled and addressed to thinga07@gmail.com. Please send the email to complete your inquiry.</p>
+                    <p className="text-sm">Your email application has opened with your message pre-filled and addressed to thniga07@gmail.com. Please send the email to complete your inquiry.</p>
                   </div>
                 </motion.div>
               )}
@@ -228,11 +228,11 @@ LawSpot Website Contact Form`;
                     <FaExclamationTriangle className="text-xl flex-shrink-0" />
                     <div>
                       <p className="font-semibold">Unable to Open Email Client</p>
-                      <p className="text-sm">Please copy the message below and send it manually to thinga07@gmail.com</p>
+                      <p className="text-sm">Please copy the message below and send it manually to thniga07@gmail.com</p>
                     </div>
                   </div>
                   <div className="bg-black/30 p-4 rounded border text-sm">
-                    <p><strong>To:</strong> thinga07@gmail.com</p>
+                    <p><strong>To:</strong> thniga07@gmail.com</p>
                     <p><strong>Subject:</strong> Legal Consultation Request - {formData.subject}</p>
                     <div className="mt-2">
                       <strong>Message:</strong>
@@ -253,7 +253,7 @@ Please respond at your earliest convenience.`}
                   </div>
                   <div className="mt-4 flex flex-col sm:flex-row gap-2">
                     <a
-                      href="mailto:thinga07@gmail.com"
+                      href="mailto:thniga07@gmail.com"
                       className="bg-gold text-black px-4 py-2 rounded font-medium hover:bg-darkGold transition-colors text-center"
                     >
                       Try Email Again
@@ -394,14 +394,16 @@ Please respond at your earliest convenience.`}
                   <div className="w-40 h-48 sm:w-48 sm:h-56 mx-auto rounded-lg overflow-hidden shadow-lg border-2 border-gold/30 mb-4">
                     <img
                       src="/images/THANIGAphoto.jpeg"
-                      alt="Advocate Thaniga K"
+                      alt="Advocate Thaniga K - Contact Legal Consultation Chengalpattu"
+                      title="Advocate Thaniga K - Professional Legal Consultation"
+                      loading="lazy"
                       className="w-full h-full object-cover object-center"
                     />
                   </div>
                   <h4 className="text-lg sm:text-xl font-serif font-bold text-white mb-2">
                     Advocate Thaniga K
                   </h4>
-                  <p className="text-gold mb-2 text-sm sm:text-base">B.A., LL.B.</p>
+                  <p className="text-gold mb-2 text-sm sm:text-base">BA.LLB,</p>
                   <p className="text-gray-300 text-xs sm:text-sm">LawSpot Verified Member</p>
                 </div>
               </div>
@@ -411,14 +413,17 @@ Please respond at your earliest convenience.`}
                   Office Location
                 </h3>
                 <div className="bg-gray-900 p-4 rounded-lg">
-                  <div className="aspect-w-16 aspect-h-12 bg-gradient-to-br from-gold/20 to-bronze/20 rounded-lg flex items-center justify-center">
-                    <div className="text-center">
-                      <FaMapMarkerAlt className="text-4xl text-gold mb-4 mx-auto" />
-                      <p className="text-white font-medium">Interactive Map</p>
-                      <p className="text-gray-300 text-sm">
-                        Mudhaliyarkuppam Village, Chengalpattu District
-                      </p>
-                    </div>
+                  <div className="rounded-lg overflow-hidden">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3897.954215806495!2d80.0278663750655!3d12.318868587939708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDE5JzA3LjkiTiA4MMKwMDEnNDkuNiJF!5e0!3m2!1sen!2sin!4v1762748006236!5m2!1sen!2sin" 
+                      width="100%" 
+                      height="300" 
+                      style={{ border: 0 }} 
+                      allowFullScreen="" 
+                      loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Office Location Map"
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -444,7 +449,7 @@ Please respond at your earliest convenience.`}
                     <span>Call Now: 9629200302</span>
                   </a>
                   <a
-                    href="mailto:thinga07@gmail.com"
+                    href="mailto:thniga07@gmail.com"
                     className="w-full bg-gold hover:bg-darkGold text-black font-semibold py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center space-x-2"
                   >
                     <FaEnvelope />

@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-gold flex-shrink-0" />
-                <p className="text-gray-300">thinga07@gmail.com</p>
+                <p className="text-gray-300">thniga07@gmail.com</p>
               </div>
               <div className="flex items-start space-x-3">
                 <FaMapMarkerAlt className="text-gold mt-1 flex-shrink-0" />

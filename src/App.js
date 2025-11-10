@@ -14,9 +14,9 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
-        <div className="App bg-black text-white min-h-screen">
+        <div className="App bg-black text-white min-h-screen overflow-x-hidden w-full">
           <Navbar />
-          <main>
+          <main className="overflow-x-hidden w-full">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

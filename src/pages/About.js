@@ -7,7 +7,7 @@ const About = () => {
     {
       icon: <FaGraduationCap className="text-3xl text-gold" />,
       title: "Educational Background",
-      description: "Bachelor of Arts (B.A.) and Bachelor of Laws (LL.B.) with comprehensive legal education and training."
+      description: "Bachelor of Arts and Bachelor of Laws (BA.LLB) with comprehensive legal education and training."
     },
     {
       icon: <FaBalanceScale className="text-3xl text-gold" />,
@@ -46,9 +46,9 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-20 sm:pt-24 md:pt-20 overflow-x-hidden w-full">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
+      <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-black via-gray-900 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -68,22 +68,22 @@ const About = () => {
       </section>
 
       {/* Bio Section */}
-      <section className="py-16 bg-gray-900">
+      <section className="py-12 sm:py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-start">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               className="order-2 lg:order-1"
             >
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-white mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-white mb-4 sm:mb-6 px-4 lg:px-0">
                 Professional Biography
               </h2>
-              <div className="space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed">
+              <div className="space-y-4 text-gray-300 text-sm sm:text-base leading-relaxed px-4 lg:px-0">
                 <p>
-                  Advocate Thaniga K is a distinguished legal professional with a Bachelor of Arts (B.A.) 
-                  and Bachelor of Laws (LL.B.) degree, bringing comprehensive legal knowledge and 
+                  Advocate Thaniga K is a distinguished legal professional with a Bachelor of Arts 
+                  and Bachelor of Laws (BA.LLB) degree, bringing comprehensive legal knowledge and 
                   practical experience to serve clients across various legal domains.
                 </p>
                 <p>
@@ -112,12 +112,14 @@ const About = () => {
                 <div className="w-64 h-80 sm:w-72 sm:h-88 md:w-80 md:h-96 rounded-lg overflow-hidden shadow-2xl border-4 border-gold/30">
                   <img
                     src="/images/THANIGAphoto.jpeg"
-                    alt="Advocate Thaniga K - Professional Legal Services"
+                    alt="Advocate Thaniga K - About Professional Background BA.LLB Lawyer Chengalpattu"
+                    title="Advocate Thaniga K - Professional Legal Background and Experience"
+                    loading="lazy"
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
                 <div className="absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 bg-gold text-black px-2 py-1 sm:px-4 sm:py-2 rounded-lg font-semibold shadow-lg">
-                  <p className="text-xs sm:text-sm">B.A., LL.B.</p>
+                  <p className="text-xs sm:text-sm">BA.LLB</p>
                 </div>
               </div>
             </motion.div>
@@ -139,7 +141,7 @@ const About = () => {
             </blockquote>
             <div className="border-l-4 border-gold pl-4">
               <p className="text-gold font-semibold">Advocate Thaniga K</p>
-              <p className="text-gray-400 text-sm sm:text-base">B.A., LL.B. | LawSpot Verified Member</p>
+              <p className="text-gray-400 text-sm sm:text-base">BA.LLB | LawSpot Verified Member</p>
             </div>
           </motion.div>
         </div>

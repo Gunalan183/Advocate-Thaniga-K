@@ -35,7 +35,7 @@ export const defaultSEO = {
     author: "Advocate Thaniga K",
     location: "Chengalpattu, Tamil Nadu, India",
     phone: "+91-9629200302",
-    email: "thaniga@example.com", // Replace with actual email
+    email: "thniga07@gmail.com",
     socialMedia: {
         twitter: "@advocatethaniga", // Replace with actual handle
         facebook: "https://facebook.com/advocatethaniga", // Replace with actual URL
